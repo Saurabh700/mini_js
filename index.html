@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="buttons">
+        <div>
+          <button onclick="Showinfo()" id="scope">Scope</button>
+            <div class="show" id="scopedata"></div>
+            <video class="show" id="vid1" width="320" height="240" controls>
+              <source src="vid1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+          <button onclick="Showinfo1()" id="hoisting">Hoisting</button>
+          <div class="show1" id="Hoistingdata"></div>
+          <video class="show1" id="vid2" width="320" height="240" controls>
+            <source src="vid1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <button onclick="Showinfo2()" id="constructorfunction">Constructor Function</button>
+          <div class="show2" id="cfdata"></div>
+          <video class="show2" id="vid3" width="320" height="240" controls>
+            <source src="vid1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <button onclick="Showinfo3()" id="prototype">Prototype</button>
+          <div class="show3" id="protodata"></div>
+          <video class="show3" id="vid4" width="320" height="240" controls>
+            <source src="vid1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!--Create buttons namely “Scope”, “Hoisting”, ‘Constructor Functions’, ‘Prototype’ in index.html. Each button will have it's respective name as HTML id. For e.g Scope button will HTML id as "scope". ( Note: no capital letter in id )-->
+
+        <!-- <video width="320" height="240" controls>
+          <source src="movie.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video> -->
+      </div>
+    </div>
+  </body>
+</html>
+<script src="localstorageData.js"></script>
+<script src="index.js"></script>
+

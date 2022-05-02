@@ -1,0 +1,27 @@
+.show {
+  display: none;
+}
+.show1 {
+  display: none;
+}
+.show2 {
+  display: none;
+}
+.show3 {
+  display: none;
+}
+video {
+  margin-bottom: 20px;
+}
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
